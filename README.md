@@ -15,38 +15,39 @@ To use the factorial CLI, follow the instructions below:
    git clone git@github.com:wantaekchoi/factorial-go.git
    ```
 
-1. Navigate to the project directory:
+2. Navigate to the project directory:
 
    ```
    cd factorial-go
    ```
 
-1. Build the CLI tool:
+3. Build the CLI tool:
 
    ```
    go build -v ./...
    ```
 
-1. Run the CLI tool with the desired number and options:
+4. Run the CLI tool with the desired number and options:
 
    ```
    ./factorial-go -number <number> -base <base>
    ```
 
-Replace `<number>` with the integer value for which you want to calculate the factorial. Replace `<base>` with the desired number base for the input (default is 10).
+   Replace `<number>` with the integer value for which you want to calculate the factorial. Replace `<base>` with the desired number base for the input (default is 10).
 
-Examples:
+   Examples:
 
-- Calculate the factorial of 5 (base 10):
+   - Calculate the factorial of 5 (base 10):
 
-  ```
-  ./factorial-go -number 5
-  ```
+     ```
+     ./factorial-go -number 5
+     ```
 
-- Calculate the factorial of FF (base 16):
-  ```
-  ./factorial-go -number FF -base 16
-  ```
+   - Calculate the factorial of FF (base 16):
+
+     ```
+     ./factorial-go -number FF -base 16
+     ```
 
 5. The factorial of the given number will be displayed.
 
