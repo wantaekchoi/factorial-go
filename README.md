@@ -1,5 +1,8 @@
 # Factorial CLI
 
+[![Go Build](https://github.com/wantaekchoi/factorial-go/actions/workflows/go.yml/badge.svg)](https://github.com/wantaekchoi/factorial-go/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wantaekchoi/factorial-go)](https://goreportcard.com/report/github.com/wantaekchoi/factorial-go)
+
 This is a command-line interface (CLI) tool written in Go that calculates the factorial of a given integer.
 
 ## Usage
