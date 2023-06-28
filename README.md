@@ -12,7 +12,7 @@ To use the factorial CLI, follow the instructions below:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/factorial-cli.git
+   git clone git@github.com:wantaekchoi/factorial-go.git
    ```
 
 1. Navigate to the project directory:
