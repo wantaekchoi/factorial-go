@@ -1,4 +1,4 @@
-name: github.com/wantaekchoi/factorial-go
+name: Go Build
 
 on:
   push:
