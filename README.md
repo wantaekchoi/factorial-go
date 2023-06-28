@@ -18,13 +18,13 @@ To use the factorial CLI, follow the instructions below:
 1. Navigate to the project directory:
 
    ```
-   cd factorial-cli
+   cd factorial-go
    ```
 
 1. Build the CLI tool:
 
    ```
-   go build factorial.go
+   go build -v ./...
    ```
 
 1. Run the CLI tool with the desired number and options:
